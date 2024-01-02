@@ -36,6 +36,7 @@ public class ControladorRe {
     RepositorioUsuarios RU;
     
     
+    
     @GetMapping("/usuarios/reciente")
     public Usuarios getUltimoU(){
     return SU.masReciente();
