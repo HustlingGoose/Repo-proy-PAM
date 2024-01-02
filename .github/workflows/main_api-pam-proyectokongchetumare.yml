@@ -50,4 +50,4 @@ jobs:
           app-name: 'API-PAM-ProyectoKongChetumare'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_60671BD343B94833ADD34BF32593EA86 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7740B9554A8742FB88D5C2DA86ACFEE9 }}
