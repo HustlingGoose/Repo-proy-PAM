@@ -50,4 +50,4 @@ jobs:
           app-name: 'Segundo-intento-PAM'
           slot-name: 'Production'
           package: '*.jar'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B519029B18854BBFA018C7ED3666BC7D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0820313A7F09417BA6DFE9B39A61509F }}
