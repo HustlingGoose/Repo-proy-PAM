@@ -19,7 +19,7 @@ public class ApiReApplication {
             @Override
             public void addCorsMappings(CorsRegistry registry){
             registry.addMapping("/**")
-                    .allowedOrigins("http://localhost:8100")
+                    .allowedOrigins("http://localhost:8100","https://segundo-intento-pam.azurewebsites.net")
                     .allowCredentials(true)
                     .allowedHeaders("Origin","Authorization", "Content-Type")
                     .allowedMethods("GET","POST","PUT","DELETE");
