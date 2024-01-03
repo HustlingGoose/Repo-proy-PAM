@@ -28,4 +28,19 @@ public class ApiReApplication {
         
         }
 
+        @Bean
+        public WebMvcConfigurer corsConfigurer2(){
+            return new WebMvcConfigurer(){
+            @Override
+            public void addCorsMappings(CorsRegistry registry){
+            registry.addMapping("/**")
+                    .allowedOrigins("http://localhost")
+                    .allowCredentials(true)
+                    .allowedHeaders("Origin","Authorization", "Content-Type")
+                    .allowedMethods("GET","POST","PUT","DELETE");
+            }
+            };
+        
+        }
+
 }
